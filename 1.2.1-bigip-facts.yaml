@@ -16,7 +16,6 @@
           server_port: 8443
           validate_certs: false
       register: device_facts
-                test
 
     - name: DISPLAY COMPLETE BIG-IP SYSTEM INFORMATION
       debug:
